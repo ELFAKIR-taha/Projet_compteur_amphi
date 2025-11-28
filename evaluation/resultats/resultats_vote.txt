@@ -1,0 +1,19 @@
+=== RÉSULTATS DÉTECTION VOTE (Gauche/Droite) ===
+
+Images traitées : 45
+
+--- GLOBAL ---
+TP : 159
+FP : 17
+FN : 56
+Precision : 0.9034
+Rappel    : 0.7395
+F1-Score  : 0.8133
+
+--- DÉTAIL GAUCHE (Classe 0/Bleu) ---
+TP: 79 | FP: 4 | FN: 27
+F1-Score  : 0.8360
+
+--- DÉTAIL DROITE (Classe 1/Rouge) ---
+TP: 80 | FP: 13 | FN: 29
+F1-Score  : 0.7921
