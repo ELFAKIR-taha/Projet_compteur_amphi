@@ -1,0 +1,5 @@
+# Ignorer le cache Python
+__pycache__/
+*.pyc
+# Ignorer le fichier historique
+historique.txt
