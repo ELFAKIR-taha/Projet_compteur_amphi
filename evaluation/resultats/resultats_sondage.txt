@@ -1,9 +1,0 @@
-
-=== RÉSULTATS DÉTECTION SONDAGE (Basé sur vote.py) ===
-Images : 45
-TP : 167
-FP : 9
-FN : 48
-Precision : 0.9489
-Rappel    : 0.7767
-F1-Score  : 0.8542
