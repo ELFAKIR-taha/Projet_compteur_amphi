@@ -1,19 +1,22 @@
-# Exclusion du dataset (données sensibles)
-dataset/
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Résultats d’évaluation contenant des infos dérivées du dataset
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Historique local
+historique.txt
+
+# Évaluation temporaire
 evaluation/predictions_sondage/
 evaluation/predictions_vote/
 
-# Poids YOLO (fichiers lourds)
-models/*.pt
-
-# Fichier archive inutile
-CompteurAmphi.rar
-
-# Fichiers générés par l'utilisateur / locaux
-__pycache__/
-*.pyc
-
-# Fichier historique
-historique.txt
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.bak
